@@ -1,4 +1,4 @@
-name: Sales Intel Rev Driver Automation
+name: Web Automation
 
 on:
   schedule:
