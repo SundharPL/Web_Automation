@@ -2,7 +2,7 @@ name: Web Automation
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 8 * * *'
   push:
     branches: [master]
   release:
