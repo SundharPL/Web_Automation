@@ -30,7 +30,7 @@ jobs:
           mkdir Execution_Results && cp target/surefire-reports/ Execution_Results
           
       - name: Execution Results
-        uses: actions/upload-artifacts@v3
+        uses: actions/upload-artifact@v3
         with: 
               name: Latest Results
               path: Execution_Results
