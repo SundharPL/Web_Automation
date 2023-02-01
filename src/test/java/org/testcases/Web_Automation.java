@@ -34,6 +34,8 @@ public class Web_Automation {
 		
 		System.out.println("IP Address: "+inetAddress);
 		System.out.println("Host Name: "+hostName);
+		
+		System.out.println("\n"+System.getProperty("user.dir"));
 	}
 	
 }
