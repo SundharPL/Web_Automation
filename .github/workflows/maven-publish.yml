@@ -27,7 +27,7 @@ jobs:
       - name: Test with Maven
         run: |
           mvn clean install test
-          mkdir Execution_Results && cp target/surefire-reports/Suite Execution_Results
+          mkdir Execution_Results && cp target/surefire-reports/Suite/index.html Execution_Results
           
       - name: Execution Results
         uses: actions/upload-artifact@v3
